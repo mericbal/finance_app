@@ -1,0 +1,47 @@
+# -------------------------
+# Rails (backend)
+# -------------------------
+backend/log/*
+backend/tmp/*
+backend/storage/*
+# Ignore all environment files.
+backend/.env*
+backend/.credentials*
+backend/.byebug_history
+backend/public/assets
+backend/node_modules
+
+# Rails cache
+backend/.cache
+
+# Ignore bundler config.
+backend/.bundle
+
+# Ignore pidfiles, but keep the directory.
+backend/tmp/pids/*
+
+# Ignore key files for decrypting credentials and more.
+backend/config/*.key
+
+
+
+# -------------------------
+# Vue (frontend)
+# -------------------------
+frontend/node_modules
+frontend/dist
+frontend/.env*
+
+# -------------------------
+# System files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor
+# -------------------------
+.vscode
+.idea
+
+
